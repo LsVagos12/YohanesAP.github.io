@@ -41,7 +41,7 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container" fade-aos="fade-in">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
@@ -143,7 +143,7 @@
             </div>
             <form name="wpu-contact-form">
               <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
+                <label for="name" class="form-label">Nama</label>
                 <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
               </div>
               <div class="mb-3">
@@ -193,6 +193,9 @@
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- my css -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -205,9 +208,11 @@
     <!-- <form name="submit-to-google-sheet">
       <input name="email" type="email" placeholder="Email" required />
       <button type="submit">Send</button>
-    </form> -->
+    </form>  -->
 
     <!-- nonaktif -->
+
+    
 
     <script>
       const scriptURL = `https://script.google.com/macros/s/AKfycbzcd1LHcU8OJcAMd7TJjnVf5H9kP-1MTB3TRX-efXCedo2AzzZQGSGyYfBHgrvVtCc7/exec`;
@@ -238,6 +243,7 @@
           })
           .catch((error) => console.error("Error!", error.message));
       });
+        
     </script>
   </body>
 </html>
