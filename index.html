@@ -41,7 +41,7 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container" fade-aos="fade-in">
+      <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
@@ -212,7 +212,11 @@
 
     <!-- nonaktif -->
 
-    
+    <!-- AOS end -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script>
       const scriptURL = `https://script.google.com/macros/s/AKfycbzcd1LHcU8OJcAMd7TJjnVf5H9kP-1MTB3TRX-efXCedo2AzzZQGSGyYfBHgrvVtCc7/exec`;
@@ -243,7 +247,7 @@
           })
           .catch((error) => console.error("Error!", error.message));
       });
-        
+
     </script>
   </body>
 </html>
